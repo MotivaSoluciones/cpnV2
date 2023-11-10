@@ -251,7 +251,7 @@ input[type="submit"] {
 
 .button:hover,
 input[type="submit"]:hover {
-    background-color: #686868;
+    background-color: #FF7500;
     color: #fff;
 }
 
@@ -2671,7 +2671,7 @@ blockquote.style2:after {
     z-index: 100;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-/*    padding: 5px 0;*/
+    /*    padding: 5px 0;*/
     -webkit-transition: padding 0.5s ease 0s;
     -o-transition: padding 0.5s ease 0s;
     transition: padding 0.5s ease 0s;
@@ -2848,6 +2848,10 @@ PRODUCT
 .product-item {
     list-style: none;
     margin-bottom: 20px;
+    /*    NUEVA VISTA*/
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 7px;
 }
 
 .product-item .product-thumb {
@@ -3821,8 +3825,10 @@ DS .product-list .product-item {
 }
 
 .widget_recent_product .product-thumb {
+/*
     width: 80px;
     float: left;
+*/
 }
 
 .widget_recent_product .product-info {
@@ -3835,10 +3841,9 @@ DS .product-list .product-item {
 }
 
 .widget_recent_product .product-name a {
-    font-size: 12px;
-    color: #222;
-
-    line-height: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #222222;
 }
 
 .widget_recent_product .product-name a:hover {
@@ -3846,7 +3851,10 @@ DS .product-list .product-item {
 }
 
 .widget_recent_product .price {
-    color: #222;
+   color: #F18A00;
+    display: block;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 1.8rem;
 }
 
 .widget_recent_product .price ins {
@@ -4768,7 +4776,7 @@ FOOTER
 
 .section-title h3 {
     font-size: 24px;
-    text-transform: uppercase;
+
     color: #222;
     margin-bottom: 0;
     position: relative;
@@ -9996,7 +10004,7 @@ li.info-pts span {
 
 .product-thumb {
     border-radius: 10px;
-    box-shadow: 2px 4px 10px 2px #ebebeb;
+    /*    box-shadow: 2px 4px 10px 2px #ebebeb;*/
 }
 
 .product-thumb img {
@@ -10308,13 +10316,39 @@ li.info-pts span {
     font-size: 18px;
     position: relative;
 }
+
 .menu-resp li {
     display: inline-block;
     padding: 0 12px;
 }
+
 .unete {
     background: #f18a01;
-    color: #fff!important;
+    color: #fff !important;
     border-radius: 7px;
-    padding: 7px 15px!important;
+    padding: 7px 15px !important;
+}
+
+.box-cart-login {
+    text-align: right;
+}
+
+@media(max-width:425px) {
+    .box-cart-login {
+        text-align: center;
+    }
+
+    .btn-blanco {
+        font-size: 13px;
+        margin: 0 5px;
+        padding: 5px 8px;
+    }
+
+    .menu-resp li {
+        padding: 0 7px;
+    }
+
+    .menu-resp {
+        font-size: 15px;
+    }
 }
