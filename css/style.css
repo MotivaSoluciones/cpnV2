@@ -981,10 +981,10 @@ blockquote.style2:after {
 
 .main-menu > li > a {
     padding: 13px 0;
-    text-transform: uppercase;
+
     display: inline-block;
     color: #343434;
-    font-size: 12px;
+    font-size: 18px;
     position: relative;
 }
 
@@ -1755,8 +1755,9 @@ blockquote.style2:after {
 }
 
 .header.style3 .main-menu > li > a {
-    padding: 18px 0;
-    font-size: 13px;
+    padding: 10px 0;
+    font-size: 18px;
+
 }
 
 .header.style3 .main-menu > li > a:hover,
@@ -2670,7 +2671,7 @@ blockquote.style2:after {
     z-index: 100;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    padding: 5px 0;
+/*    padding: 5px 0;*/
     -webkit-transition: padding 0.5s ease 0s;
     -o-transition: padding 0.5s ease 0s;
     transition: padding 0.5s ease 0s;
@@ -10298,4 +10299,22 @@ li.info-pts span {
 
 .star {
     font-size: 18px;
+}
+
+.menu-resp {
+    padding: 13px 0;
+    text-align: center;
+    color: #343434;
+    font-size: 18px;
+    position: relative;
+}
+.menu-resp li {
+    display: inline-block;
+    padding: 0 12px;
+}
+.unete {
+    background: #f18a01;
+    color: #fff!important;
+    border-radius: 7px;
+    padding: 7px 15px!important;
 }
