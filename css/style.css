@@ -242,7 +242,7 @@ input[type="submit"] {
     transition: all 0.3s ease 0s;
     background: transparent;
     position: relative;
-    background-color: #F18A00;
+    background-color: #FF7500;
 
     border: none;
     border-radius: 7px;
@@ -1416,21 +1416,23 @@ blockquote.style2:after {
 
 .box-search .search {
     border: none;
-    width: 80%;
-    padding: 13px 15px;
+    width: 100%;
+    padding: 20px 15px;
     padding-right: 50px;
+    font-size: 20px;
+    color: #b1a9a9;
 }
 
 .box-search .button-search {
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 24px;
+    font-size: 35px;
     background-color: transparent;
     border: none;
     width: 50px;
-    height: 50px;
-    line-height: 54px;
+    height: 64px;
+    line-height: 65px;
     text-align: center;
 }
 
@@ -2857,15 +2859,19 @@ PRODUCT
 
 .product-item .product-name {
     margin-bottom: 8px;
-    /*	margin-top: 5px;*/
+    margin-top: 30px;
+    height: 48px;
+    line-height: 23px;
+    /*
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+*/
 }
 
 .product-item .product-name a {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 1.8rem;
     color: #222222;
 }
 
@@ -2876,7 +2882,8 @@ PRODUCT
 .product-item .price {
     color: #F18A00;
     display: block;
-    font-size: 1.6rem;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 1.8rem;
     /*	margin-bottom: 5px;*/
 }
 
@@ -3087,9 +3094,9 @@ DS .product-list .product-item {
 }
 
 .product-item.style3 .add_to_cart_button:hover {
-    background-color: #686868;
+    background-color: #FF7500;
     color: #fff;
-    border-color: #686868;
+    border-color: #FF7500;
 }
 
 .product-item.style3 .wishlist:hover,
@@ -9633,9 +9640,10 @@ RESPONSIVE
 }
 
 .marca {
-    font-size: 1.2rem;
-    color: #888;
-    margin: 15px 0 0 0;
+    font-size: 1.4rem;
+    color: #333;
+    margin: 5px 0 0 0;
+    height: 48px;
 }
 
 .price-normal {
@@ -10279,10 +10287,15 @@ li.info-pts span {
     padding: 5px 15px;
     border: 1px solid #fff;
     border-radius: 7px;
-     font-family: 'Montserrat-SemiBold';
+    font-family: 'Montserrat-SemiBold';
     font-size: 18px;
     margin: 0 10px;
 }
+
 .btn-blanco:hover {
     color: #fff;
+}
+
+.star {
+    font-size: 18px;
 }
