@@ -178,6 +178,10 @@ ol ul {
     padding-left: 30px
 }
 
+.chosen-container-single .chosen-single {
+    border-radius: 7px;
+}
+
 select[class="normal"],
 option[class="normal"],
 input[type="date"],
@@ -190,6 +194,7 @@ input[type="tel"] {
     padding: 6px 15px;
     color: #747474;
     max-width: 100%;
+    border-radius: 7px;
 }
 
 input[type="text"]:focus,
@@ -230,17 +235,18 @@ input[type="submit"] {
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    padding: 9px 15px;
+    padding: 15px 30px;
     text-align: center;
-    text-transform: uppercase;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     background: transparent;
     position: relative;
     background-color: #F18A00;
-    font-size: 12px;
+
     border: none;
+    border-radius: 7px;
+    font-family: 'Montserrat-SemiBold';
 }
 
 .button:hover,
@@ -6317,6 +6323,7 @@ FOOTER
     background-color: #fff;
     padding: 35px 30px;
     overflow: hidden;
+    border-radius: 7px;
 }
 
 .product-details-right .breadcrumbs {
@@ -6476,7 +6483,7 @@ FOOTER
 
 .product-details-right .price {
     margin-bottom: 20px;
-    font-family: 'MontserratLight';
+
 }
 
 .product-details-right.style2 .cart-form {
