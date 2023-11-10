@@ -1041,7 +1041,7 @@ blockquote.style2:after {
     background-color: #fff;
     z-index: 10;
     text-align: left;
-    font-family: 'Roboto';
+    
     background-repeat: no-repeat;
     background-position: right bottom;
 }
@@ -1411,15 +1411,15 @@ blockquote.style2:after {
 
 .box-search {
     position: relative;
-    font-family: 'Roboto';
+    
 }
 
 .box-search .search {
     border: none;
     width: 100%;
-    padding: 20px 15px;
+    padding: 10px 15px;
     padding-right: 50px;
-    font-size: 20px;
+    font-size: 18px;
     color: #b1a9a9;
 }
 
@@ -1431,8 +1431,8 @@ blockquote.style2:after {
     background-color: transparent;
     border: none;
     width: 50px;
-    height: 64px;
-    line-height: 65px;
+    height: 44px;
+    line-height: 50px;
     text-align: center;
 }
 
@@ -1562,7 +1562,7 @@ blockquote.style2:after {
 }
 
 .setting-option {
-    font-family: 'Roboto';
+    
     padding-top: 13px;
 }
 
@@ -3055,7 +3055,7 @@ DS .product-list .product-item {
 }
 
 .product-item.list .short-descript {
-    font-family: 'Roboto';
+    
 }
 
 .product-item.list .available {
@@ -3409,7 +3409,7 @@ DS .product-list .product-item {
 /* BREADCRUMBS */
 
 .breadcrumbs {
-    font-family: 'Roboto';
+    
     color: #555;
     display: inline-block;
 }
@@ -3441,7 +3441,7 @@ DS .product-list .product-item {
 
 .woocommerce-result-count {
     display: inline-block;
-    font-family: 'Roboto';
+    
 }
 
 .orderby-wapper .chosen-container-single .chosen-single {
@@ -3559,7 +3559,7 @@ DS .product-list .product-item {
 .widget_product_categories li,
 .widget_layered_nav li {
     line-height: 40px;
-    font-family: 'Roboto';
+    
     font-size: 15px;
 }
 
@@ -3589,7 +3589,7 @@ DS .product-list .product-item {
 
 .tagcloud {
     overflow: hidden;
-    font-family: 'Roboto';
+    
     text-align: center;
 }
 
@@ -3620,7 +3620,7 @@ DS .product-list .product-item {
 
 .widget_price_filter .price_slider_wrapper {
     padding-top: 10px;
-    font-family: 'Roboto';
+    
 }
 
 .widget_price_filter .slider-range-price {
@@ -4955,7 +4955,7 @@ FOOTER
 .title-border .subtext {
     color: #999;
     margin-left: 20px;
-    font-family: 'Roboto';
+    
     font-weight: normal;
 }
 
@@ -5072,7 +5072,7 @@ FOOTER
     color: #fff;
     width: auto;
     padding: 15px;
-    font-family: 'Roboto';
+    
     font-weight: 300;
     display: table;
 }
@@ -5163,7 +5163,7 @@ FOOTER
     text-align: center;
     vertical-align: middle;
     font-size: 30px;
-    font-family: 'Roboto';
+    
     font-weight: 100;
     z-index: 1;
     opacity: 0;
@@ -5404,7 +5404,7 @@ FOOTER
     font-size: 13px;
     color: #aaaaaa;
     padding: 0;
-    font-family: 'Roboto';
+    
     padding-left: 10px;
     width: 100%;
 }
@@ -6206,7 +6206,7 @@ FOOTER
 }
 
 .block-single-product .attributes {
-    font-family: 'Roboto';
+    
     font-weight: 300;
 }
 
@@ -6370,7 +6370,7 @@ FOOTER
     font-size: 18px;
     text-decoration: none;
     display: inline-block;
-    margin-bottom: 10px;
+   
     color: #F18A00;
 }
 
@@ -6383,7 +6383,7 @@ FOOTER
 }
 
 .product-details-right .short-descript {
-    font-family: 'Roboto';
+    
     margin-bottom: 20px;
 }
 
@@ -6498,10 +6498,7 @@ FOOTER
     padding: 30px 0;
 }
 
-.product-details-right .price {
-    margin-bottom: 20px;
 
-}
 
 .product-details-right.style2 .cart-form {
     border-top: 1px solid #eaeaea;
@@ -6648,7 +6645,7 @@ FOOTER
 
 .tab-details-product .box-tabs li a {
     color: #222;
-    text-transform: uppercase;
+  font-weight: 600;
 }
 
 .tab-details-product .box-tabs li a:after {
@@ -6668,7 +6665,7 @@ FOOTER
 }
 
 .tab-details-product .tab-container {
-    font-family: 'Roboto';
+    
     border-bottom: 1px solid #eaeaea;
     padding-bottom: 50px;
 }
@@ -6723,7 +6720,7 @@ FOOTER
 }
 
 .box-list-reviews .commentlist .comment .comment-content {
-    font-family: 'Roboto';
+    
 }
 
 .box-list-reviews .meta span {
@@ -6732,7 +6729,7 @@ FOOTER
 }
 
 .box-list-reviews .meta .date {
-    font-family: 'Roboto';
+    
     color: #999;
 }
 
@@ -6741,7 +6738,7 @@ FOOTER
 }
 
 .form-review {
-    font-family: 'Roboto';
+    
     overflow: hidden;
 }
 
@@ -6881,7 +6878,7 @@ BLOG PAGE
 
 .blog-item .entry-meta {
     font-size: 13px;
-    font-family: 'Roboto';
+    
     margin-bottom: 10px;
     color: #222;
 
@@ -6988,7 +6985,7 @@ BLOG PAGE
     width: 68%;
     overflow: hidden;
     padding-left: 25px;
-    font-family: 'Roboto';
+    
 }
 
 .author-info-wrap .avatar {
@@ -7042,7 +7039,7 @@ BLOG PAGE
 }
 
 #comments .comment-list .date-comment {
-    font-family: 'Roboto';
+    
     font-size: 13px;
 }
 
@@ -8169,7 +8166,7 @@ BLOG PAGE
 .kt-contact-form input[type="text"],
 .kt-contact-form textarea {
     width: 100%;
-    font-family: 'Roboto';
+    
 }
 
 /*
@@ -9667,7 +9664,7 @@ RESPONSIVE
     height: 24px;
     line-height: 24px;
     position: absolute;
-    right: 0px;
+    left: 60px;
     top: 0;
     transform: translate(25%, -25%);
     width: 24px;
@@ -10351,4 +10348,9 @@ li.info-pts span {
     .menu-resp {
         font-size: 15px;
     }
+}
+
+.product-thumb .img-checkout{
+    width: 80px;
+    float: left;
 }
