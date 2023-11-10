@@ -5439,6 +5439,7 @@ FOOTER
     padding: 40px 30px;
     border: 1px solid #ccc;
     background: #fff;
+    border-radius: 7px;
 }
 
 .newsletter.style2:after {
