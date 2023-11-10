@@ -10238,8 +10238,8 @@ li.info-pts span {
     top: 30%;
     display: block !important;
     font-weight: 600;
-    font-size: 20px;
-    font-family: arial;
+    font-size: 9px;
+   
     background: #F18A00;
     width: 40px;
     height: 40px;
@@ -10255,8 +10255,7 @@ li.info-pts span {
     top: 30%;
     display: block !important;
     font-weight: 600;
-    font-size: 20px;
-    font-family: arial;
+    font-size: 9px;
     background: #F18A00;
     width: 40px;
     height: 40px;
