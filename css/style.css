@@ -235,7 +235,7 @@ input[type="submit"] {
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    padding: 15px 30px;
+    padding: 12px 15px;
     text-align: center;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -1041,7 +1041,7 @@ blockquote.style2:after {
     background-color: #fff;
     z-index: 10;
     text-align: left;
-    
+
     background-repeat: no-repeat;
     background-position: right bottom;
 }
@@ -1411,7 +1411,7 @@ blockquote.style2:after {
 
 .box-search {
     position: relative;
-    
+
 }
 
 .box-search .search {
@@ -1562,7 +1562,7 @@ blockquote.style2:after {
 }
 
 .setting-option {
-    
+
     padding-top: 13px;
 }
 
@@ -3054,9 +3054,7 @@ DS .product-list .product-item {
     color: #fff;
 }
 
-.product-item.list .short-descript {
-    
-}
+.product-item.list .short-descript {}
 
 .product-item.list .available {
     text-transform: uppercase;
@@ -3092,10 +3090,17 @@ DS .product-list .product-item {
 /* PRODUCT STYLE 3*/
 
 .product-item.style3 .add_to_cart_button {
-    border: 1px solid #686868;
-    background-color: transparent;
-    color: #686868;
+    border: 1px solid #f18a01;
+    color: #fff;
     margin-top: 15px;
+    background: #f18a01;
+    border-radius: 100%;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.product-item.style3 .add_to_cart_button span {
+    font-weight: 600;
 }
 
 .product-item.style3 .add_to_cart_button:hover {
@@ -3409,7 +3414,7 @@ DS .product-list .product-item {
 /* BREADCRUMBS */
 
 .breadcrumbs {
-    
+
     color: #555;
     display: inline-block;
 }
@@ -3441,7 +3446,7 @@ DS .product-list .product-item {
 
 .woocommerce-result-count {
     display: inline-block;
-    
+
 }
 
 .orderby-wapper .chosen-container-single .chosen-single {
@@ -3525,7 +3530,7 @@ DS .product-list .product-item {
 
 .widget .widget-title {
     font-size: 15px;
-    text-transform: uppercase;
+
     margin-bottom: 15px;
     position: relative;
 }
@@ -3559,7 +3564,7 @@ DS .product-list .product-item {
 .widget_product_categories li,
 .widget_layered_nav li {
     line-height: 40px;
-    
+
     font-size: 15px;
 }
 
@@ -3589,7 +3594,7 @@ DS .product-list .product-item {
 
 .tagcloud {
     overflow: hidden;
-    
+
     text-align: center;
 }
 
@@ -3620,7 +3625,7 @@ DS .product-list .product-item {
 
 .widget_price_filter .price_slider_wrapper {
     padding-top: 10px;
-    
+
 }
 
 .widget_price_filter .slider-range-price {
@@ -3825,7 +3830,7 @@ DS .product-list .product-item {
 }
 
 .widget_recent_product .product-thumb {
-/*
+    /*
     width: 80px;
     float: left;
 */
@@ -3851,7 +3856,7 @@ DS .product-list .product-item {
 }
 
 .widget_recent_product .price {
-   color: #F18A00;
+    color: #F18A00;
     display: block;
     font-family: 'Montserrat-SemiBold';
     font-size: 1.8rem;
@@ -4770,7 +4775,7 @@ FOOTER
 /* SECTION TITLE*/
 
 .section-title {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     position: relative;
 }
 
@@ -4955,7 +4960,7 @@ FOOTER
 .title-border .subtext {
     color: #999;
     margin-left: 20px;
-    
+
     font-weight: normal;
 }
 
@@ -5072,7 +5077,7 @@ FOOTER
     color: #fff;
     width: auto;
     padding: 15px;
-    
+
     font-weight: 300;
     display: table;
 }
@@ -5163,7 +5168,7 @@ FOOTER
     text-align: center;
     vertical-align: middle;
     font-size: 30px;
-    
+
     font-weight: 100;
     z-index: 1;
     opacity: 0;
@@ -5404,7 +5409,7 @@ FOOTER
     font-size: 13px;
     color: #aaaaaa;
     padding: 0;
-    
+
     padding-left: 10px;
     width: 100%;
 }
@@ -6207,7 +6212,7 @@ FOOTER
 }
 
 .block-single-product .attributes {
-    
+
     font-weight: 300;
 }
 
@@ -6371,7 +6376,7 @@ FOOTER
     font-size: 18px;
     text-decoration: none;
     display: inline-block;
-   
+
     color: #F18A00;
 }
 
@@ -6384,7 +6389,7 @@ FOOTER
 }
 
 .product-details-right .short-descript {
-    
+
     margin-bottom: 20px;
 }
 
@@ -6646,7 +6651,7 @@ FOOTER
 
 .tab-details-product .box-tabs li a {
     color: #222;
-  font-weight: 600;
+    font-weight: 600;
 }
 
 .tab-details-product .box-tabs li a:after {
@@ -6666,7 +6671,7 @@ FOOTER
 }
 
 .tab-details-product .tab-container {
-    
+
     border-bottom: 1px solid #eaeaea;
     padding-bottom: 50px;
 }
@@ -6720,9 +6725,7 @@ FOOTER
     float: left;
 }
 
-.box-list-reviews .commentlist .comment .comment-content {
-    
-}
+.box-list-reviews .commentlist .comment .comment-content {}
 
 .box-list-reviews .meta span {
     display: block;
@@ -6730,7 +6733,7 @@ FOOTER
 }
 
 .box-list-reviews .meta .date {
-    
+
     color: #999;
 }
 
@@ -6739,7 +6742,7 @@ FOOTER
 }
 
 .form-review {
-    
+
     overflow: hidden;
 }
 
@@ -6879,7 +6882,7 @@ BLOG PAGE
 
 .blog-item .entry-meta {
     font-size: 13px;
-    
+
     margin-bottom: 10px;
     color: #222;
 
@@ -6986,7 +6989,7 @@ BLOG PAGE
     width: 68%;
     overflow: hidden;
     padding-left: 25px;
-    
+
 }
 
 .author-info-wrap .avatar {
@@ -7040,7 +7043,7 @@ BLOG PAGE
 }
 
 #comments .comment-list .date-comment {
-    
+
     font-size: 13px;
 }
 
@@ -8167,7 +8170,7 @@ BLOG PAGE
 .kt-contact-form input[type="text"],
 .kt-contact-form textarea {
     width: 100%;
-    
+
 }
 
 /*
@@ -10239,7 +10242,7 @@ li.info-pts span {
     display: block !important;
     font-weight: 600;
     font-size: 9px;
-   
+
     background: #F18A00;
     width: 40px;
     height: 40px;
@@ -10290,7 +10293,7 @@ li.info-pts span {
 }
 
 .btn-blanco {
-    padding: 5px 15px;
+    padding: 5px 10px;
     border: 1px solid #fff;
     border-radius: 7px;
     font-family: 'Montserrat-SemiBold';
@@ -10350,7 +10353,27 @@ li.info-pts span {
     }
 }
 
-.product-thumb .img-checkout{
+.product-thumb .img-checkout {
     width: 80px;
     float: left;
+}
+
+.box-puntos {
+    border: 1px solid #f18a01;
+    padding: 6px 10px !important;
+    border-radius: 7px;
+}
+
+@media(max-width:280px) {
+    .box-puntos {
+        font-size: 13px;
+    }
+
+    .menu-resp li {
+        padding: 0 5px;
+    }
+
+    .menu-resp {
+        font-size: 13px;
+    }
 }
