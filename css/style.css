@@ -10383,3 +10383,12 @@ li.info-pts span {
         font-size: 13px;
     }
 }
+
+.owl-next::before {
+       content: '> ';
+    font-size: 35px;
+}
+.owl-prev::before {
+       content: ' < ';
+    font-size: 35px;
+}
