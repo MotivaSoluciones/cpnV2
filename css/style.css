@@ -10272,13 +10272,13 @@ li.info-pts span {
 /*OTROS*/
 .link-footer {
     color: #FF7500;
-    text-decoration: underline;
+   
     font-weight: 600;
 }
 
 .link-footer:hover {
     color: #FF7500;
-    text-decoration: underline;
+  
     font-weight: 600;
 }
 
