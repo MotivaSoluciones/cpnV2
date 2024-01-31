@@ -971,7 +971,7 @@ blockquote.style2:after {
 
 .main-menu > li:after {
     content: '';
-    height: 10px;
+    height: 0px;
     position: absolute;
     left: 0;
     width: 100%;
@@ -1773,6 +1773,7 @@ blockquote.style2:after {
 
 .header.style3 .main-menu > li {
     padding: 0 20px;
+    margin: 23px 0;
 }
 
 .header.style3 .main-menu > li:first-child {
@@ -8519,7 +8520,9 @@ table {
 .margin-bottom-10 {
     margin-bottom: 10px !important;
 }
-
+.margin-bottom-15 {
+    margin-bottom: 15px !important;
+}
 .margin-bottom-5 {
     margin-bottom: 5px !important;
 }
