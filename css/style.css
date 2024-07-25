@@ -10395,3 +10395,10 @@ li.info-pts span {
        content: ' < ';
     font-size: 35px;
 }
+.box-banner {
+    position: absolute;
+    right: 72px;
+    bottom: calc((100% - 164px)/2)!important;
+    text-align: right;
+    color: #fff;
+}
