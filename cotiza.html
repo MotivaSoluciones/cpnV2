@@ -25,9 +25,9 @@
             border-radius: 7px;
             padding: 9px 15px;
             background: transparent;
-            border: 1px solid #fff;
-            color: #fff;
-            font-size: 18px;
+           
+           
+           
         }
 
         .basket {
@@ -103,12 +103,7 @@
     <div class="container-fluid ">
         <div class="row bg-naranja">
             <div class="col-md-3 text-center margin-top-20 margin-bottom-20">
-                <select name="" class="normal" id="" style="width: 100%;height: 40px">
-                    <option value="" class="normal">Categorias</option>
-                    <option value="" class="normal">Destacados</option>
-                    <option value="" class="normal">Viajes</option>
-                    <option value="" class="normal">Entretenimiento</option>
-                </select>
+
             </div>
             <div class="col-md-3 text-center margin-bottom-20">
                 <div class="box-control margin-top-20">
@@ -130,141 +125,227 @@
             </div>
         </div>
     </div>
+    <div class="home-slide3 owl-carousel nav-style3 nav-center-center" data-animateout="fadeOut" data-animatein="fadeIn" data-items="1" data-nav="true" data-dots="false" data-loop="true" data-autoplay="true">
+        <a href=""><img src="images/slides/bg-destacado.png" alt=""></a>
+        <a href=""><img src="images/slides/7.png" alt=""></a>
+    </div>
     <div class="container">
-        <div class="row margin-top-20">
-            <div class="col-md-8">
-                <div class="section-title style6">
-                    <h4 class="naranja fnt-600"> Disfruta de los grandes beneficios</h4>
+        <div class="margin-top-20">
+            <div class="row margin-bottom-20">
+                <div class="col-md-12 text-center">
+                    <h3>Cotiza tu ticket aéreo</h3>
                 </div>
             </div>
-            <div class="col-md-4 col-xs-12">
-                <select name="" class="normal" id="" style="width: 100%;height: 40px">
-                    <option value="" class="normal">Ordenar de A - Z</option>
-                    <option value="" class="normal">Ordenar de Z - A</option>
+            <h4 style="border-bottom: 1px solid #e5e5e5;line-height: 45px;font-weight: 600"><span class="icon pe-7s-note2" style="font-size: 25px"></span> Ingresa la información para generar la cotización:</h4>
 
-                </select>
+            <div class="row margin-top-50">
+                <div class="col-md-3">
+                    <label for="">Tipo</label><br>
+                    <select name="" class="normal" id="" style="width: 100%;height: 40px">
+                        <option value="" class="normal">Ida y vuelta</option>
+                        <option value="" class="normal">Sólo ida</option>
+
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="">Clase</label><br>
+                    <select name="" class="normal" id="" style="width: 100%;height: 40px">
+                        <option value="" class="normal">Económica</option>
+                        <option value="" class="normal">Premium económica</option>
+                        <option value="" class="normal">Ejecutiva/Business</option>
+
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <p>
+                        <label for="">Ciudad de origen</label><br>
+                        <input type="text" style="width: 100%">
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p>
+                        <label for="">Ciudad de destino</label><br>
+                        <input value="" type="text" style="width: 100%">
+                    </p>
+                </div>
+
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="product-list-grid2 tab-list " data-nav="false" data-dots="false" data-margin="0" data-loop="true" data-items="1" style="list-style: none">
-                    <li class=" col-sm-3">
-                        <div class="product-item">
+            <div class="row margin-bottom-50">
+                <div class="col-md-3">
+                    <p>
+                        <label for="">Fecha ida</label><br>
+                        <input type="date" style="width: 100%">
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p>
+                        <label for="">Fecha vuelta</label><br>
+                        <input value="" type="date" style="width: 100%">
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <label for="">Pasajeros</label><br>
+                    <select name=""  id="" style="width: 100%;height: 40px">
+                        <option value="" >1 pasajero</option>
+                        <option value="" >2 pasajeros</option>
+                        <option value="" >3 pasajeros</option>
+                        <option value="" >4 pasajeros</option>
+                        <option value="" >5 pasajeros</option>
+
+                    </select>
+                </div>
+                <div class="col-md-3 text-right">
+                    <p>
+                        <label for=""></label><br>
+                        <input class="button add_to_cart_button" type="button" style="width: 100%" value="Siguiente" onclick="mostrar('pasajeros')">
+                    </p>
+                </div>
+            </div>
+            <div class="margin-bottom-50" id="pasajeros" style="display: none">
+                <h4 style="border-bottom: 1px solid #e5e5e5;line-height: 45px;font-weight: 600"><span class="icon pe-7s-user" style="font-size: 25px"></span> ¿Quiénes viajan?</h4>
+                <div class="row margin-top-40">
+                    <div class="col-md-12">
+                        <div class="box-persona">
+                            <p><label for="" style="text-decoration: underline;margin-left: 15px">Pasajero 1</label></p>
+                            <div class="col-md-4">
+                                <p>
+                                    <label for="">Nombres</label><br>
+                                    <input value="" type="text" style="width: 100%">
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>
+                                    <label for="">Apellidos</label><br>
+                                    <input value="" type="text" style="width: 100%">
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>
+                                    <label for="">Tipo de documento</label><br>
+                                    <input value="" type="text" style="width: 100%">
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>
+                                    <label for="">Nº de documento</label><br>
+                                    <input value="" type="text" style="width: 100%">
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>
+                                    <label for="">Fecha de nacimiento</label><br>
+                                    <input value="" type="date" style="width: 100%">
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>
+
+                                    <input value="" type="checkbox" value="menor" name="tipo"> Persona menor de edad <br>
+                                    <input value="" type="checkbox" value="dis" name="tipo"> Persona con discapacidad <br>
+                                    <input value="" type="checkbox" value="mayor" name="tipo"> Persona mayor a 65 años <br>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="box-persona">
+                            <p><label for="" style="text-decoration: underline;margin-left: 15px">Pasajero 2</label></p>
+                            <div class="col-md-4">
+                                <p>
+                                    <label for="">Nombres</label><br>
+                                    <input value="" type="text" style="width: 100%">
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>
+                                    <label for="">Apellidos</label><br>
+                                    <input value="" type="text" style="width: 100%">
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>
+                                    <label for="">Tipo de documento</label><br>
+                                    <input value="" type="text" style="width: 100%">
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>
+                                    <label for="">Nº de documento</label><br>
+                                    <input value="" type="text" style="width: 100%">
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>
+                                    <label for="">Fecha de nacimiento</label><br>
+                                    <input value="" type="date" style="width: 100%">
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>
+                                    <input value="" type="checkbox" value="menor" name="tipo"> Persona menor de edad <br>
+                                    <input value="" type="checkbox" value="dis" name="tipo"> Persona con discapacidad <br>
+                                    <input value="" type="checkbox" value="mayor" name="tipo"> Persona mayor a 65 años <br>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-9 text-right">
+                        <p>
+                            <label for=""></label><br>
+                            <a class="button add_to_cart_button" data-toggle="modal" data-target="#cotizacion" style="width: 100%">COTIZAR</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="margin-bottom-50">
+                <div class="section-title text-center">
+                    <h3>Nuestras recomendaciones</h3>
+                </div>
+
+                <ul class="row margin-top-40">
+                    <li class="product-item style3 mobile-slide-item  col-md-4 border-0">
+                        <div class="product-inner">
                             <div class="product-thumb has-back-image">
-                                <a href="detalle-bene.html"><img src="images/experiencias/curacao.jpg" alt=""></a>
-                                <div class="gorup-button">
-                                    <a href="detalle-bene.html" class="quick-view"><i class="fa fa-search"></i></a>
-                                </div>
+                                <img src="images/ticket1.jpg" alt="">
                             </div>
                             <div class="product-info">
-                                <h3 class="product-name"><a href="detalle-bene.html">Hasta 10% de descuento por el segundo</a></h3>
+                                <p class="text-uppercase marca">Medellin</p>
+                                <p>Viaja a Medellín y conoce variedad de sitios turísticos y culturas. Descubre un paraíso y vive emocionantes actividades.</p>
+                                <a href="detail-prod.html" style="text-decoration: underline;font-weight: 600">Ver detalles</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="product-item style3 mobile-slide-item col-md-4 border-0">
+                        <div class="product-inner">
+                            <div class="product-thumb has-back-image">
+                                <img src="images/ticket2.jpg" alt="">
+                            </div>
+                            <div class="product-info">
+                                <p class="text-uppercase marca">Aruba</p>
+                                <p>Prepárate para vivir una experiencia inolvidable en Aruba, experiencia única con sus playas de cristalinas aguas.</p>
+                                <a href="detail-prod.html" style="text-decoration: underline;font-weight: 600">Ver detalles</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="product-item style3 mobile-slide-item col-md-4 border-0">
+                        <div class="product-inner">
+                            <div class="product-thumb has-back-image">
+                                <img src="images/ticket3.jpg" alt="">
+                            </div>
+                            <div class="product-info">
+                                <p class="text-uppercase marca">Cancún</p>
+                                <p>Descubre la historia y cultura de Aruba en un recorrido emocionante por la ciudad de la eterna juventud.</p>
+                                <a href="detail-prod.html" style="text-decoration: underline;font-weight: 600">Ver detalles</a>
 
                             </div>
                         </div>
                     </li>
-                    <li class="col-sm-3">
-                        <div class="product-item">
-                            <div class="product-thumb has-back-image">
-                                <a href="detalle-bene.html"><img src="images/experiencias/ampora.jpg" alt=""></a>
-                                <div class="gorup-button">
-                                    <a href="detalle-bene.html" class="quick-view"><i class="fa fa-search"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-info">
-                                <!--                                <p class="marca">Amphora</p>-->
-                                <h3 class="product-name"><a href="detalle-bene.html">30% off en todo Amphora</a></h3>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-sm-3">
-                        <div class="product-item">
-                            <div class="product-thumb has-back-image">
-                                <a href="detalle-bene.html"><img src="images/experiencias/subway.jpg" alt=""></a>
-                                <div class="gorup-button">
-                                    <a href="detalle-bene.html" class="quick-view"><i class="fa fa-search"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-info">
-                                <!--                                <p class="marca">Subway</p>-->
-                                <h3 class="product-name"><a href="detalle-bene.html">Combo Mayoqueso 15cm</a></h3>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-sm-3">
-                        <div class="product-item">
-                            <div class="product-thumb has-back-image">
-                                <a href="detalle-bene.html"><img src="images/experiencias/argentaria.jpg" alt=""></a>
-                                <div class="gorup-button">
-                                    <a href="detalle-bene.html" class="quick-view"><i class="fa fa-search"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-info">
-                                <!--                                <p class="marca">Argentaria</p>-->
-                                <h3 class="product-name"><a href="detalle-bene.html">20% de dscto en toda la tienda</a></h3>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-sm-3">
-                        <div class="product-item">
-                            <div class="product-thumb has-back-image">
-                                <a href="detalle-bene.html"><img src="images/experiencias/granja.jpg" alt=""></a>
-                                <div class="gorup-button">
-                                    <a href="detalle-bene.html" class="quick-view"><i class="fa fa-search"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-info">
-                                <!--                                <p class="marca">Granja Azul</p>-->
-                                <h3 class="product-name"><a href="detalle-bene.html">15% de descuento en la carta </a></h3>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-sm-3">
-                        <div class="product-item">
-                            <div class="product-thumb has-back-image">
-                                <a href="detalle-bene.html"><img src="images/experiencias/aranwa.jpg" alt=""></a>
-                                <div class="gorup-button">
-                                    <a href="detalle-bene.html" class="quick-view"><i class="fa fa-search"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-info">
-                                <!--                                <p class="marca">Aranwa hoteles</p>-->
-                                <h3 class="product-name"><a href="detalle-bene.html">25% de descuento todos los miércoles</a></h3>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-sm-3">
-                        <div class="product-item">
-                            <div class="product-thumb has-back-image">
-                                <a href="detalle-bene.html"><img src="images/experiencias/dunas.jpg" alt=""></a>
-                                <div class="gorup-button">
-                                    <a href="detalle-bene.html" class="quick-view"><i class="fa fa-search"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-info">
-                                <!--                                <p class="marca">Las Dunas</p>-->
-                                <h3 class="product-name"><a href="detalle-bene.html">- 20% domingo a jueves </a></h3>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-sm-3">
-                        <div class="product-item">
-                            <div class="product-thumb has-back-image">
-                                <a href="detalle-bene.html"><img src="images/experiencias/sky.jpg" alt=""></a>
-                                <div class="gorup-button">
-                                    <a href="detalle-bene.html" class="quick-view"><i class="fa fa-search"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-info">
-                                <!--                                <p class="marca">SKY AIRLINE</p>-->
-                                <h3 class="product-name"><a href="detalle-bene.html">- 20% en vuelos nacionales en aerolinea</a></h3>
-                            </div>
-                        </div>
-                    </li>
-
 
                 </ul>
             </div>
-
         </div>
     </div>
     <footer class="footer">
@@ -489,7 +570,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <div class="container">dddd
+                        <div class="container">
                             <p class="text-center">Cooperativa Policia Nacional 2023 - Todos los derechos reservados </p>
                         </div>
                     </div>
@@ -497,6 +578,57 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="cotizacion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog" role="document" style="z-index: 1041;margin-top: 100px;">
+            <div class="modal-content" id="enviar">
+                <div class="modal-header" style="padding: 20px 40px">
+                    <h4 style="margin-bottom: 0;font-weight: 600;display: inline-block"><span class="icon pe-7s-mail" style="font-size: 25px"></span> ¿A dónde enviamos tu cotización?</h4> <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 3px">x</button>
+                </div>
+                <div class="modal-body " style="padding: 20px 40px">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h5>La información que nos proporciones será fundamental para hacerte llegar la cotización e información relevante sobre tu viaje</h5>
+                        </div>
+                        <div class="col-md-12">
+                            <label for="">Correo electrónico</label><br>
+                            <input value="" type="text" style="width: 100%">
+                        </div>
+                        <div class="col-md-12 margin-top-20">
+                            <label for="">Teléfono</label><br>
+                            <input value="" type="text" style="width: 100%">
+                        </div>
+                    </div>
+                    <div class="row text-center margin-top-20">
+                        <div class="col-md-12">
+                            <input type="button" class="button" onclick="mostrarModal('ok','enviar')" value="Solicitar cotización">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-content" id="ok" style="display: none">
+                <div class="modal-header" style="padding: 20px 40px">
+                    <h4 style="margin-bottom: 0;font-weight: 600;display: inline-block"><span class="icon pe-7s-check" style="font-size: 25px;vertical-align: middle;font-weight: bold;color: green"></span> ¡Gracias por tu solicitud!</h4> <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 3px">x</button>
+                </div>
+                <div class="modal-body " style="padding: 20px 40px">
+                    <div class="row  text-center">
+                        <div class="col-md-12">
+                            <h5 style="font-weight: 600">Dentro de las siguientes 48 horas nos estaremos comunicando contigo para darte información sobre tu cotización</h5>
+                            <h5 style="font-weight: 600">En cuanto llegue la cotización a tu correo, debes aprobarla respondiendo sobre el mismo correo.</h5>
+                            <p>* Es responsabilidad de quienes viajan tener todos los documentos necesarios para su destino</p>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-12">
+                            <a class="button" href="cotiza.html">Aceptar</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
@@ -512,7 +644,14 @@
     <script type="text/javascript" src="js/masonry.js"></script>
 
     <script type="text/javascript" src="js/functions.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        function mostrarModal(muestra, oculta) {
+            document.getElementById(muestra).style.display = 'block';
+            document.getElementById(oculta).style.display = 'none';
+        }
 
+    </script>
 </body>
 
 </html>

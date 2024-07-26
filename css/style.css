@@ -10402,3 +10402,7 @@ li.info-pts span {
     text-align: right;
     color: #fff;
 }
+
+.border-0 {
+    border: 0!important;
+}
