@@ -8520,9 +8520,11 @@ table {
 .margin-bottom-10 {
     margin-bottom: 10px !important;
 }
+
 .margin-bottom-15 {
     margin-bottom: 15px !important;
 }
+
 .margin-bottom-5 {
     margin-bottom: 5px !important;
 }
@@ -10275,13 +10277,13 @@ li.info-pts span {
 /*OTROS*/
 .link-footer {
     color: #FF7500;
-   
+
     font-weight: 600;
 }
 
 .link-footer:hover {
     color: #FF7500;
-  
+
     font-weight: 600;
 }
 
@@ -10303,7 +10305,7 @@ li.info-pts span {
 
 .btn-blanco {
     padding: 5px 10px;
-/*    border: 1px solid #fff;*/
+    /*    border: 1px solid #fff;*/
     border-radius: 7px;
     font-family: 'Montserrat-SemiBold';
     font-size: 18px;
@@ -10388,21 +10390,29 @@ li.info-pts span {
 }
 
 .owl-next::before {
-       content: '> ';
+    content: '> ';
     font-size: 35px;
 }
+
 .owl-prev::before {
-       content: ' < ';
+    content: ' < ';
     font-size: 35px;
 }
+
 .box-banner {
     position: absolute;
     right: 72px;
-    bottom: calc((100% - 164px)/2)!important;
+    bottom: calc((100% - 164px)/2) !important;
     text-align: right;
     color: #fff;
 }
 
 .border-0 {
-    border: 0!important;
+    border: 0 !important;
+}
+
+.compra-puntos {
+    border: 1px solid #fc7501;
+    border-radius: 8px;
+    padding: 20px;
 }
